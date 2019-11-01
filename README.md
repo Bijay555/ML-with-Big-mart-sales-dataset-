@@ -3,9 +3,9 @@ This repository consists of some machine learning feature engineering with big m
 
 Some thing About the working model:
 
-#Model Building
+# Model Building
 In model building we use two models. One is
-#Linear Regression:
+# Linear Regression:
 Linear Regression is a machine learning algorithm based on supervised learning. ... Linear regression performs the task to predict a dependent variable value (y) based on a given independent variable (x). So, this regression technique finds out a linear relationship between x (input) and y(output).
 Hypothesis function for Linear Regression :
 			 
@@ -19,7 +19,7 @@ Once we find the best θ1 and θ2 values, we get the best fit line. So when we a
 Cost Function:
 By achieving the best-fit regression line, the model aims to predict y value such that the error difference between the predicted value and the true value is minimum. So, it is very important to update the θ1 and θ2 values, to reach the best value that minimize the error between predicted y value (pred) and true y value (y).			
  
-#Polynomial Regression:
+# Polynomial Regression:
 Polynomial Regression is a form of linear regression in which the relationship between the independent variable x and dependent variable y is modeled as an nth degree polynomial. Polynomial regression fits a nonlinear relationship between the value of x and the corresponding conditional mean of y, denoted E(y |x)
 So when the dataset is not linear, linear regression cannot learn the dataset and make good predictions.
 So we need a polynomial model which considered the polynomial terms as well. So we need terms like x, x^2, x^3, x^4 ….. etc
